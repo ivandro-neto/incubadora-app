@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Bobbles colors */
+    --cursor: rgb(255, 45, 97);
+    --bobbles--1: rgba(255, 45, 97, .31);
+    --bobbles--2: rgba(255, 45, 97, .21);
+    --bobbles--3: rgba(255, 45, 97, .15);
+    --bobbles--4: rgba(255, 45, 97, .29);
+    --bobbles--5: rgba(255, 45, 97,.25);
+    --bobbles--6: rgba(255, 45, 97, .11);
+
+}
+
+.cursor{
+  z-index: 10;
+    width: 8px;
+    height: 8px;
+    background-color: var(--cursor);
+    position: fixed;
+    transform: translate(-54%, -50%);
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: 100ms;
+    
+}
+.cursor1{
+  z-index: 10;
+    width: 10px;
+    height: 10px;
+    background-color: var(--bobbles--1);
+    position: fixed;
+    transform: translate(-54%, -50%);
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: 100ms;
+    
+}
+.cursor2{
+  z-index: 10;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: var(--bobbles--2);
+    position: fixed;
+    transform: translate(-50%, -53%);
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    transition:  130ms;
+    
+}
+
+.cursor3{
+  z-index: 10;
+    width: 30px;
+    height: 30px;
+    background-color: var(--bobbles--3);
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: 160ms;
+    
+}
+.cursor4{
+  z-index: 10;
+    width: 28px;
+    height: 28px;
+    border: none;
+    background-color: var(--bobbles--4);
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    transition:  190ms;
+}
+.cursor5{
+  z-index: 10;
+    width: 40px;
+    height: 40px;
+    background-color: var(--bobbles--5);
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: 200ms;
+    
+}
+.cursor6{
+  z-index: 10;
+    width: 38px;
+    height: 38px;
+    border: none;
+    background-color: var(--bobbles--6);
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    transition:  210ms;
+}
+
+.float1 {
+    animation-fill-mode: forwards; /* Smoothly stop animation */ 
+    animation: float1 6s ease-in-out infinite; 
+}
+.float2 {
+    animation-fill-mode: forwards; /* Smoothly stop animation */ 
+    animation: float2 8s ease-in-out infinite;
+}
+.float3 {
+    animation-fill-mode: forwards; /* Smoothly stop animation */
+    animation: float3 5s ease-in-out infinite; 
+}
+.float4 { 
+    animation: float4 7s ease-in-out infinite;
+    animation-fill-mode: forwards; /* Smoothly stop animation */
+ }
+.float5 {
+    animation: float5 4s ease-in-out infinite;
+    animation-fill-mode: forwards; /* Smoothly stop animation */
+ }
+.float6 {
+    animation-fill-mode: forwards; /* Smoothly stop animation */
+    animation: float6 9s ease-in-out infinite; 
+}
+
+
+@keyframes float1 {
+  0%, 100% {
+    transform: translate(-50%, -50%) translateX(0) translateY(0);
+  }
+  25% {
+    transform: translate(-50%, -50%) translateX(30px) translateY(-40px);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateX(60px) translateY(0);
+  }
+  75% {
+    transform: translate(-50%, -50%) translateX(30px) translateY(40px);
+  }
+}
+
+@keyframes float2 {
+  0%, 100% {
+    transform: translate(-50%, -50%) translateX(0) translateY(0);
+  }
+  25% {
+    transform: translate(-50%, -50%) translateX(40px) translateY(20px);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateX(80px) translateY(0);
+  }
+  75% {
+    transform: translate(-50%, -50%) translateX(40px) translateY(-20px);
+  }
+}
+
+@keyframes float3 {
+  0%, 100% {
+    transform: translate(-50%, -50%) translateX(0) translateY(0);
+  }
+  25% {
+    transform: translate(-50%, -50%) translateX(-30px) translateY(-50px);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateX(-60px) translateY(0);
+  }
+  75% {
+    transform: translate(-50%, -50%) translateX(-30px) translateY(50px);
+  }
+}
+
+@keyframes float4 {
+  0%, 100% {
+    transform: translate(-50%, -50%) translateX(0) translateY(0);
+  }
+  25% {
+    transform: translate(-50%, -50%) translateX(-30px) translateY(30px);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateX(0) translateY(60px);
+  }
+  75% {
+    transform: translate(-50%, -50%) translateX(30px) translateY(30px);
+  }
+}
+
+@keyframes float5 {
+  0%, 100% {
+    transform: translate(-50%, -50%) translateX(0) translateY(0);
+  }
+  25% {
+    transform: translate(-50%, -50%) translateX(30px) translateY(20px);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateX(60px) translateY(0);
+  }
+  75% {
+    transform: translate(-50%, -50%) translateX(30px) translateY(-20px);
+  }
+}
+
+@keyframes float6 {
+  0%, 100% {
+    transform: translate(-50%, -50%) translateX(0) translateY(0);
+  }
+  25% {
+    transform: translate(-50%, -50%) translateX(-20px) translateY(40px);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateX(-40px) translateY(0);
+  }
+  75% {
+    transform: translate(-50%, -50%) translateX(-20px) translateY(-40px);
+  }
+}

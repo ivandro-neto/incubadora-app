@@ -1,0 +1,64 @@
+.slides{
+    display: flex;
+    gap: 150px;
+    transition: all 500ms;  
+}
+
+.slideshow-screen{
+    position: absolute;
+    display: flex;
+    bottom: 100px;
+    left: 0;
+    padding: 100px;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 65vh;
+    gap: 50px;
+    
+}
+
+/* Style for the dots */
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dot {
+  width: 20px;
+  height: 15px;
+  border-radius: 30px;
+  background-color: #001427;
+  cursor: pointer;
+  transition: all 500ms;
+}
+
+.dot.active {
+  width: 40px; /* Active dot color */
+}
+
+/* Style for the slide controls */
+.slide-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.slide-controls button {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 8px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.slide-controls button:hover {
+  background-color: #f57c00; /* Hover color */
+}
