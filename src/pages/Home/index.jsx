@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./css/style.css";
+import "./style.css";
 import { Cursor } from "../../components/Cursor";
 import { NavBar } from "../../components/NavBar";
 import { AnimatePage } from "../../components/AnimatePage";
@@ -109,7 +109,7 @@ export function Home() {
     <AnimatePage>
       <div className="scene-home" onMouseMove={handleMouseMove}>
         <div className="background-home">
-          <Bubbles/>
+          <Bubbles />
           <img src="/Asset81.png" alt="" className="curves" />
         </div>
         <div className="foreground-home">

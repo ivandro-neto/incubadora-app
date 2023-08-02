@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-import "./css/style.css";
+import "./style.css";
 import { Box } from "../Box";
 export const SlideShow = ({slidesData, buttons}) => {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./css/style.css";
+import "./style.css";
 import { Cursor } from "../../components/Cursor";
 import { Bubbles } from "../../components/Bubbles";
 import { NavBar } from "../../components/NavBar";
@@ -121,7 +121,7 @@ export function Programs() {
           <SlideShow
             slidesData={[
               {
-                image: "./programs/coworking.jpg",
+                image: "/coworking.jpg",
                 title: "Espaço de Coworking Inspirador:",
                 listData: [
                   "Ambiente colaborativo e inovador para sua equipe.",
@@ -132,7 +132,7 @@ export function Programs() {
                 listed: true,
               },
               {
-                image: "./programs/aceleracao.jpg",
+                image: "/aceleracao.jpg",
                 title: "Programa de Aceleração Intensiva:",
                 listData: [
                   "Transforme sua ideia em um negócio sólido e escalável.",
@@ -143,7 +143,7 @@ export function Programs() {
                 listed: true,
               },
               {
-                image: "./programs/mentoria.jpg",
+                image: "/mentoria.jpg",
                 title: "Mentoria Especializada:",
                 listData: [
                   "Mentores renomados com expertise em diversas áreas.",
@@ -153,7 +153,7 @@ export function Programs() {
                 listed: true,
               },
               {
-                image: "./programs/suporte.jpg",
+                image: "/suporte.jpg",
                 title: "Suporte Financeiro e Captação de Recursos:",
                 listData: [
                   "Orientação na preparação de pitch decks e estratégias de captação de recursos.",
@@ -163,7 +163,7 @@ export function Programs() {
                 listed: true,
               },
               {
-                image: "./programs/networking.jpg",
+                image: "/networking.jpg",
                 title: "Networking e Eventos:",
                 listData: [
                   "Eventos de networking exclusivos com investidores, empresários e especialistas do setor.",
@@ -173,7 +173,7 @@ export function Programs() {
                 listed: true,
               },
               {
-                image: "./programs/desenvolvimento.jpg",
+                image: "/desenvolvimento.jpg",
                 title: "Programa de Desenvolvimento de Produto:",
                 listData: [
                   "Suporte no desenvolvimento e aprimoramento do seu produto/serviço.",

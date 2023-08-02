@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import "./css/style.css";
+import "./style.css";
 
 export const NavBar = ({ handleMouseEnter, handleMouseLeave, actived }) => {
- const Subscribe = () => window.open('#', "_self")
+  const Subscribe = () => window.open("#", "_self");
   //Implement here selected tab
   return (
     <nav className="nav">

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./css/style.css";
+import "./style.css";
 import { Cursor } from "../../components/Cursor";
 import { Bubbles } from "../../components/Bubbles";
 import { NavBar } from "../../components/NavBar";

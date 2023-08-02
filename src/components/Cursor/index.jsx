@@ -1,6 +1,5 @@
-import "./css/style.css";
+import "./style.css";
 export function Cursor() {
- 
   return (
     <>
       <div className="cursor"></div>

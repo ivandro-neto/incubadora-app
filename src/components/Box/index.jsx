@@ -1,7 +1,15 @@
-import "./css/style.css";
+import "./style.css";
 import { RegularButton } from "../RegularButton";
-export const Box = ({ title, slogan, description, image, buttons, listed, listData }) => {
-  console.log(listed)
+export const Box = ({
+  title,
+  slogan,
+  description,
+  image,
+  buttons,
+  listed,
+  listData,
+}) => {
+  console.log(listed);
   return (
     <div className="box">
       <div className="box-img">
@@ -16,9 +24,12 @@ export const Box = ({ title, slogan, description, image, buttons, listed, listDa
         >
           <div className="content-header">
             <h1 className="title">
-              <strong style={{ display: listed === true ? "none" : "inline-block" }}>
+              <strong
+                style={{ display: listed === true ? "none" : "inline-block" }}
+              >
                 Nome da Startup:
-              </strong>{title}
+              </strong>
+              {title}
             </h1>
             <span
               className="slogan"
