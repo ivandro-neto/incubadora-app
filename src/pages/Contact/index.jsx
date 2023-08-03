@@ -115,7 +115,7 @@ export function Contact() {
         <div className="foreground-contact">
           <img src="/Foreground.png" alt="" className="curves" />
         </div>
-        <img src="/person.png" alt="Person Figure" className="person" />
+        <img src="/person.png" alt="Person Figure" className="person" loading="lazy" />
         <div className="container-contact">
           <NavBar
             handleMouseEnter={handleMouseEnter}
