@@ -8,12 +8,29 @@ export const Box = ({
   buttons,
   listed,
   listData,
+  small,
 }) => {
-  console.log(listed);
+  const blur = document.querySelectorAll(".blur-img");
+  blur.forEach(div => {
+    const img = div.querySelector("img");
+    
+    const loaded = () => div.classList.add("loaded");
+  
+    if (img.complete) {
+      loaded()
+    } else {
+      img.addEventListener("load", loaded)
+    }
+    
+  })
+
   return (
     <div className="box">
-      <div className="box-img">
-        <img src={image} alt="Logo" />
+      <div
+        className="box-img blur-img"
+        style={{ backgroundImage: `url(${small})` }}
+      >
+        <img src={image} alt="Logo" loading="lazy" />
       </div>
       <div className="box-content">
         <div

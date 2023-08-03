@@ -121,8 +121,10 @@ export function StartUps() {
           <SlideShow
             slidesData={[
               {
+                small:
+                  "https://imagehost9.online-image-editor.com/oie_upload/images/302014Pi6xfUMUpD/32205GwqvGB8F.jpg",
                 image:
-                  "https://th.bing.com/th/id/OIP.NU9zscMHAn83CpLA9fDjrgHaHa?pid=ImgDet&rs=1",
+                  "https://wallpaperaccess.com/full/8354874.jpg",
                 title: "SparkleCraft",
                 slogan:
                   "Desperte a magia do conhecimento, enquanto brilha e cria!",
@@ -132,8 +134,10 @@ export function StartUps() {
                 listData: [],
               },
               {
+                small:
+                  "https://imagehost9.online-image-editor.com/oie_upload/images/302014Pi6xfUMUpD/32205GwqvGB8F.jpg",
                 image:
-                  "https://th.bing.com/th/id/OIP.NU9zscMHAn83CpLA9fDjrgHaHa?pid=ImgDet&rs=1",
+                  "https://wallpaperaccess.com/full/8354874.jpg",
                 title: "SparkleCraft",
                 slogan:
                   "Desperte a magia do conhecimento, enquanto brilha e cria!",
@@ -143,8 +147,10 @@ export function StartUps() {
                 listData: [],
               },
               {
+                small:
+                  "https://imagehost9.online-image-editor.com/oie_upload/images/302014Pi6xfUMUpD/32205GwqvGB8F.jpg",
                 image:
-                  "https://th.bing.com/th/id/OIP.NU9zscMHAn83CpLA9fDjrgHaHa?pid=ImgDet&rs=1",
+                  "https://wallpaperaccess.com/full/8354874.jpg",
                 title: "SparkleCraft",
                 slogan:
                   "Desperte a magia do conhecimento, enquanto brilha e cria!",
@@ -154,8 +160,10 @@ export function StartUps() {
                 listData: [],
               },
               {
+                small:
+                  "https://imagehost9.online-image-editor.com/oie_upload/images/302014Pi6xfUMUpD/32205GwqvGB8F.jpg",
                 image:
-                  "https://th.bing.com/th/id/OIP.NU9zscMHAn83CpLA9fDjrgHaHa?pid=ImgDet&rs=1",
+                  "https://wallpaperaccess.com/full/8354874.jpg",
                 title: "SparkleCraft",
                 slogan:
                   "Desperte a magia do conhecimento, enquanto brilha e cria!",

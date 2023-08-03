@@ -2,9 +2,9 @@ import React, { useEffect, useRef, useState } from "react";
 
 import "./style.css";
 import { Box } from "../Box";
-export const SlideShow = ({slidesData, buttons}) => {
+export const SlideShow = ({ slidesData, buttons }) => {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
-  console.log(slidesData.length)
+  console.log(slidesData.length);
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveSlideIndex((prevIndex) => (prevIndex + 1) % slidesData.length);
@@ -47,6 +47,7 @@ const handleNextSlide = () => {
               buttons={buttons}
               listed={slide.listed}
               listData={slide.listData}
+              small={slide.small}
             />
           ))}
         </div>

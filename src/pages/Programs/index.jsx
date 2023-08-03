@@ -121,6 +121,7 @@ export function Programs() {
           <SlideShow
             slidesData={[
               {
+                small: "/cow-small.jpg",
                 image: "/coworking.jpg",
                 title: "Espaço de Coworking Inspirador:",
                 listData: [
@@ -132,6 +133,7 @@ export function Programs() {
                 listed: true,
               },
               {
+                small: "/acel-small.jpg",
                 image: "/aceleracao.jpg",
                 title: "Programa de Aceleração Intensiva:",
                 listData: [
@@ -143,6 +145,7 @@ export function Programs() {
                 listed: true,
               },
               {
+                small: "/mentoria-small.jpg",
                 image: "/mentoria.jpg",
                 title: "Mentoria Especializada:",
                 listData: [
@@ -153,6 +156,7 @@ export function Programs() {
                 listed: true,
               },
               {
+                small: "/suporte-small.jpg",
                 image: "/suporte.jpg",
                 title: "Suporte Financeiro e Captação de Recursos:",
                 listData: [
@@ -163,6 +167,7 @@ export function Programs() {
                 listed: true,
               },
               {
+                small: "/networking-small.jpg",
                 image: "/networking.jpg",
                 title: "Networking e Eventos:",
                 listData: [
@@ -173,6 +178,7 @@ export function Programs() {
                 listed: true,
               },
               {
+                small: "/dev-small.jpg",
                 image: "/desenvolvimento.jpg",
                 title: "Programa de Desenvolvimento de Produto:",
                 listData: [

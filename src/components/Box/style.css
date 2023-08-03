@@ -45,10 +45,54 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, .8);
     overflow: hidden;
 }
+.blur-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blur-img::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    animation: pulse 2s infinite;
+}
+.blur-img.loaded::before{
+    content: none;
+    animation: none;
+}
 
+@keyframes pulse {
+    0%{
+    background-color: rgba(255, 255, 255, 0);
+
+    }
+    50%{
+    background-color: rgba(255, 255, 255, 0.5);
+
+    }
+    100%{
+    background-color: rgba(255, 255, 255, 0);
+
+    }
+}
 .box-img img{
     width: 120%;
+    height: 120%;
+    object-fit: cover;
+    object-position: center;
 }
+
+.blur-img.loaded > img{
+    opacity: 1;
+}
+
+.blur-img > img{
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
 .btn-container-box{
     display: flex;
     justify-content: space-between;
@@ -86,3 +130,4 @@
     justify-content: flex-start;
     overflow: visible;
 }
+

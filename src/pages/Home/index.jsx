@@ -4,6 +4,8 @@ import { Cursor } from "../../components/Cursor";
 import { NavBar } from "../../components/NavBar";
 import { AnimatePage } from "../../components/AnimatePage";
 import { Bubbles } from "../../components/Bubbles";
+
+
 export function Home() {
   const [isPinned, setIsPinned] = useState(false);
   const button = document.querySelector(".button");
